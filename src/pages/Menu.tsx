@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Parallax } from "react-scroll-parallax";
-import { Leaf, Flame, Star } from "lucide-react";
+import { Leaf, Flame } from "lucide-react";
 
 const Menu = () => {
   const [activeCategory, setActiveCategory] = useState("appetizers");
