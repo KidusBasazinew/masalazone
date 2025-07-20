@@ -320,12 +320,20 @@ const Menu = () => {
                       alt={item.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     />
+<<<<<<< HEAD
                     {/* {item.popular && (
+=======
+                    {item.popular && (
+>>>>>>> 8cb41b1 (Add other tabes)
                       <div className="absolute top-4 left-4 bg-rose-500 text-white px-3 py-1 rounded-full text-xs font-light flex items-center space-x-1">
                         <Star size={12} fill="currentColor" />
                         <span>Popular</span>
                       </div>
+<<<<<<< HEAD
                     )} */}
+=======
+                    )}
+>>>>>>> 8cb41b1 (Add other tabes)
                   </div>
 
                   <div className="p-6 bg-white rounded-b-lg">
