@@ -18,11 +18,12 @@ import "./index.css";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const [scrollY, setScrollY] = useState(0);
+  console.log(scrollY);
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", handleScroll);
- 
+
     // Intersection Observer for scroll animations
     const observerOptions = {
       threshold: 0.1,
