@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import {
   Menu,
@@ -18,7 +18,6 @@ import "./index.css";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
