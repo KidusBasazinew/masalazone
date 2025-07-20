@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import {
-  Menu,
-  X,
   Star,
   MapPin,
   Phone,
@@ -17,7 +15,6 @@ import {
 import "./index.css";
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
   console.log(scrollY);
   useEffect(() => {
