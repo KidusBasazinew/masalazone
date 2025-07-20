@@ -319,7 +319,7 @@ const Menu = () => {
                       src={item.image}
                       alt={item.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    /> 
+                    />
                     {/* {item.popular && (
                       <div className="absolute top-4 left-4 bg-rose-500 text-white px-3 py-1 rounded-full text-xs font-light flex items-center space-x-1">
                         <Star size={12} fill="currentColor" />
