@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import {
   Menu,
